@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar JavaScript | NIOMIC</title>
+  </head>
+  <body>
+    <p id="href1"> </p>
+
+    <button type="button" name="button" onclick="lihatHref1()"> Tampilkan Href </button>
+
+    <script type="text/javascript">
+      function lihatHref1(){
+        var a = location.href;
+        document.getElementById('href1').innerHTML = a;
+      }
+    </script>
+  </body>
+</html>
